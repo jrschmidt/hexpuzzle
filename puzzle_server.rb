@@ -7,8 +7,6 @@ require 'coffee-script'
 
 require 'json'
 
-require 'pry'
-
 set :server, %w[webrick thin mongrel]
 
 set :port, 4566
